@@ -1,0 +1,12 @@
+# Exclure les fichiers de cache et d'environnement
+__pycache__/
+*.pyc
+*.pyo
+*.env
+
+# Exclure les fichiers volumineux (déjà mis sur Google Drive)
+modele_traduction/model.safetensors
+
+# Exclure les fichiers spécifiques aux éditeurs
+.vscode/
+.idea/
